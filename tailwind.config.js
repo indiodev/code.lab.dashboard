@@ -68,9 +68,9 @@ export default {
 				},
 
 				'slide-down': {
-					'0%': { width: '0' },
+					'0%': { height: '0' },
 					'100%': {
-						width: '100%',
+						height: '100%',
 					},
 				},
 			},
