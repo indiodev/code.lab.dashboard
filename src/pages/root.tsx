@@ -12,7 +12,7 @@ export function Root(): React.ReactElement {
 			>
 				<Input
 					placeholder="Full Name"
-					className="flex-1rounded-md border border-green-600 placeholder:text-green-400"
+					className="rounded-md border border-green-600 placeholder:text-green-400"
 				/>
 				<Button
 					variant="default"

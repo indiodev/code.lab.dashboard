@@ -5,7 +5,7 @@ import { Menu } from './menu';
 
 export function Aside(): React.ReactElement {
 	return (
-		<aside className="bg-white flex flex-col gap-10 h-screen rounded-tr-3xl rounded-br-3xl max-w-[300px] w-full p-10 border">
+		<aside className="bg-white hidden xl:flex flex-col gap-10 h-screen rounded-tr-3xl rounded-br-3xl max-w-[300px] w-full p-10 border">
 			<Logo />
 			<Menu />
 		</aside>

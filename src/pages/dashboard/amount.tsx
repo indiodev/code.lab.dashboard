@@ -4,7 +4,7 @@ import React from 'react';
 export function Amount(): React.ReactElement {
 	return (
 		<React.Fragment>
-			<div className="w-full flex flex-row gap-8">
+			<div className="w-full flex flex-col lg:flex-row gap-8">
 				<CardAmount
 					title="Total de vendas"
 					value={3265.21}
@@ -19,7 +19,7 @@ export function Amount(): React.ReactElement {
 				/>
 			</div>
 
-			<div className="w-full flex flex-row gap-8">
+			<div className="w-full flex flex-col lg:flex-row gap-8">
 				<CardAmount
 					title="Compras canceladas"
 					value={130}

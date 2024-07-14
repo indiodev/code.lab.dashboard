@@ -13,7 +13,7 @@ import { LinkButton } from '../link-button';
 
 export function Menu(): React.ReactElement {
 	return (
-		<section className="flex flex-col flex-1 gap-4">
+		<ul className="flex flex-col gap-4">
 			<LinkButton to={'/dashboard'}>
 				<Grid2X2 /> <span>Dashboard</span>
 			</LinkButton>
@@ -39,6 +39,6 @@ export function Menu(): React.ReactElement {
 			<Button className="text-[#F03D3D] bg-[#F03D3D0F]">
 				<Power /> <span>Desconectar</span>
 			</Button>
-		</section>
+		</ul>
 	);
 }

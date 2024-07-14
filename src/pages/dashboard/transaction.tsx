@@ -2,7 +2,7 @@ import { CardTransaction } from '@components/card-transaction';
 
 export function Transaction(): React.ReactElement {
 	return (
-		<div className="flex-1 bg-white max-w-[640px] w-full rounded-xl p-10 flex flex-col gap-6">
+		<div className="bg-white max-w-[640px] w-full rounded-xl p-10 flex flex-col gap-6">
 			<h2 className="text-xl font-medium">Histórico de transações</h2>
 
 			<section className="flex flex-col gap-5 ">

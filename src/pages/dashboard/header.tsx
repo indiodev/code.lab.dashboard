@@ -1,6 +1,6 @@
 export function Header(): React.ReactElement {
 	return (
-		<div className="flex flex-1 w-full justify-between">
+		<div className="flex w-full justify-between">
 			<div className="block">
 				<h2 className="text-3xl font-medium">Olá, Jhollyfer</h2>
 				<p className="font-medium text-lg text-[#6A6969]">

@@ -11,7 +11,7 @@ interface CardAmountProps {
 
 export function CardAmount(data: CardAmountProps): React.ReactElement {
 	return (
-		<div className="flex-1 bg-white rounded-xl flex flex-col p-5 gap-3 max-w-[304px] w-full">
+		<div className="flex bg-white rounded-xl flex-col p-5 gap-3 min-w-[304px] w-full">
 			<div className="flex flex-col gap-[6px]">
 				<span className="font-medium text-base text-[#272727]">
 					{data.title}
