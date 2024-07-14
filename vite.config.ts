@@ -12,6 +12,7 @@ export default defineConfig({
 			'@routes': resolve(__dirname, './src/routes'),
 			'@layouts': resolve(__dirname, './src/layouts'),
 			'@pages': resolve(__dirname, './src/pages'),
+			'@models': resolve(__dirname, './src/models'),
 		},
 	},
 });

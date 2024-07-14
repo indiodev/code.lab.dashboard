@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 export function Root(): React.ReactElement {
 	return (
 		<BrowserRouter>
-			<Route.Root />
+			<Route.Dashboard />
 		</BrowserRouter>
 	);
 }

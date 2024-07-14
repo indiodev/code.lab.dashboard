@@ -65,7 +65,8 @@
 					["@libs", "./src/libs"],
 					["@routes", "./src/routes"],
 					["@layouts", "./src/layouts"],
-					["@pages", "./src/pages"]
+					["@pages", "./src/pages"],
+					["@models", "./src/models"]
 				],
 				"extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
 			}
