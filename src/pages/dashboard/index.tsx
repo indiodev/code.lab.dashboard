@@ -6,15 +6,15 @@ import { Transaction } from './transaction';
 
 export function Dashboard(): React.ReactElement {
 	return (
-		<div className="container flex flex-col gap-8 max-w-[1312px] w-full px-8 xl:px-0 h-auto">
+		<div className="container flex flex-col gap-8 max-w-[1312px] w-full px-8 2xl:px-0 h-auto">
 			<Header />
 
-			<section className="flex flex-col sm:flex-row gap-8 sm:max-h-[363px] h-full">
+			<section className="flex flex-col md:flex-row gap-8 md:max-h-[363px] h-full">
 				<Chart />
 				<Transaction />
 			</section>
 
-			<div className="flex flex-col sm:flex-row gap-8 md:h-[150px]">
+			<div className="flex flex-col md:flex-row gap-8 2xl:h-[150px]">
 				<Amount />
 			</div>
 
