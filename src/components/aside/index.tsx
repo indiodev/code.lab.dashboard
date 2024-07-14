@@ -14,7 +14,7 @@ export function Aside(): React.ReactElement {
 			className={cn(
 				'bg-white hidden xl:flex flex-col gap-10 h-screen rounded-tr-3xl rounded-br-3xl max-w-[300px] w-full p-10 border',
 				isOpen &&
-					'flex absolute left-0 top-0 bottom-0 right-0 max-w-full w-screen h-screen z-10 rounded-none border-none',
+					'flex absolute left-0 top-0 bottom-0 right-0 max-w-full w-screen h-screen z-10 rounded-none border-none transition-all animate-slide-down',
 			)}
 		>
 			<div className="flex justify-between items-center p-0">
