@@ -1,12 +1,17 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@components/ui/avatar';
 import { Button } from '@components/ui/button';
+import { useMenu } from '@hooks/menu';
 import { Bell, Menu, Search } from 'lucide-react';
 
 export function Header(): React.ReactElement {
+	const { toggle } = useMenu();
 	return (
 		<div className="flex flex-col gap-10">
 			<div className="flex w-full justify-between">
-				<Button className="lg:hidden bg-transparent text-black hover:bg-slate-50">
+				<Button
+					className="lg:hidden bg-transparent text-black hover:bg-slate-50"
+					onClick={toggle}
+				>
 					<Menu />
 				</Button>
 
